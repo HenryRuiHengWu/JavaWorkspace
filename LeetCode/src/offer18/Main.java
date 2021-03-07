@@ -8,9 +8,6 @@ public class Main {
 		head.next = firstNode;
 		firstNode.next = secondNode;
 		
-		//git的测试
-		ListNode test;
-		
 		Solution solution = new Solution();
 		ListNode temp = solution.deleteNode(head, -99);
 		while (temp != null) {
